@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/assets/meme.css" />
+    <title>$Hillary</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <a href="/page2.html">Go back</a>
+        <a href="/">Google Search</a>
+      </div>
+
+      <img src="" alt="meme" />
+    </div>
+
+    <script>
+      let img_n = Math.floor(Math.random() * 8) + 1;
+      const img = document.querySelector("img");
+      img.src =
+        "/assets/memes/" + (img_n > 4 ? img_n + ".png" : img_n + ".jpg");
+    </script>
+  </body>
+</html>
