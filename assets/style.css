@@ -49,3 +49,9 @@ nav a {
 .telegram {
     color: #247BA6;
 }
+
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: .8em !important;
+    }
+}
